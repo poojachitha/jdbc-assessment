@@ -12,7 +12,8 @@ public class Author {
 
     private String email;
 
-    public Author() {}
+    public Author() {
+    }
 
     public Author(int id, String firstName, String lastName, String genre, String email) {
         this.id = id;
@@ -68,5 +69,7 @@ public class Author {
                 firstName, genre, id, lastName);
     }
 
+    public static void forEach(Object object) {
+    }
 
 }
